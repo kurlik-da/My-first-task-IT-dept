@@ -1,3 +1,3 @@
-a = 5
-b = 6
-print(a-b)
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+print(f"{a} - {b} = {a-b}")
